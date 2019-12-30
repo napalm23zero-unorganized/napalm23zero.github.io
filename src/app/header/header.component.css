@@ -15,15 +15,9 @@
   display: inline-flex;
 }
 
-.profile-left {
-}
-
 .profile-right {
   color: white;
   padding: 4rem 2rem;
-}
-
-.avatar {
 }
 
 .title > h4 {
@@ -47,5 +41,5 @@
 
 .social > a > img {
   width: 1.7rem;
-  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
