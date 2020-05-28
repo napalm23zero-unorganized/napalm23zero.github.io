@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  application:
+    build:
+      context: "."
+      dockerfile: Dockerfile
+      network: host
+    container_name: napalm23zero.github.io
+    ports:
+      - 300:3000
+    volumes:
+      - "./:/app"
+    working_dir: /app
+    stdin_open: true
+    tty: true
